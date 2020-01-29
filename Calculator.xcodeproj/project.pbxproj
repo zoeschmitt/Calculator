@@ -13,6 +13,7 @@
 		C8DD8B8923E1492E00D92C58 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DD8B8823E1492E00D92C58 /* Assets.xcassets */; };
 		C8DD8B8C23E1492E00D92C58 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8DD8B8B23E1492E00D92C58 /* Preview Assets.xcassets */; };
 		C8DD8B8F23E1492E00D92C58 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8DD8B8D23E1492E00D92C58 /* LaunchScreen.storyboard */; };
+		C8DD8B9723E14A7200D92C58 /* GlobalEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8DD8B9623E14A7200D92C58 /* GlobalEnvironment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		C8DD8B8B23E1492E00D92C58 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		C8DD8B8E23E1492E00D92C58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8DD8B9023E1492E00D92C58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8DD8B9623E14A7200D92C58 /* GlobalEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalEnvironment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				C8DD8B8223E1492A00D92C58 /* AppDelegate.swift */,
 				C8DD8B8423E1492A00D92C58 /* SceneDelegate.swift */,
 				C8DD8B8623E1492A00D92C58 /* ContentView.swift */,
+				C8DD8B9623E14A7200D92C58 /* GlobalEnvironment.swift */,
 				C8DD8B8823E1492E00D92C58 /* Assets.xcassets */,
 				C8DD8B8D23E1492E00D92C58 /* LaunchScreen.storyboard */,
 				C8DD8B9023E1492E00D92C58 /* Info.plist */,
@@ -146,6 +149,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8DD8B9723E14A7200D92C58 /* GlobalEnvironment.swift in Sources */,
 				C8DD8B8323E1492A00D92C58 /* AppDelegate.swift in Sources */,
 				C8DD8B8523E1492A00D92C58 /* SceneDelegate.swift in Sources */,
 				C8DD8B8723E1492A00D92C58 /* ContentView.swift in Sources */,
